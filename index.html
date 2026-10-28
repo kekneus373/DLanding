@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f6fc">
+    <meta name="description" content="A simple home for useful, independent web services.">
+    <title>DLanding Open Services — Your corner of the open web</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Use dark theme"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle__indicator" aria-hidden="true"></span>
+          <span id="theme-toggle-label">Dark theme</span>
+        </button>
+
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> A little more open</p>
+        <h1>DLanding</h1>
+        <p class="tagline">Your everyday tools, gathered in one thoughtful place.</p>
+      </header>
+
+      <main class="services-main">
+        <div class="section-heading">
+          <h2>Pick up where you left off</h2>
+          <p>Independent services for the things you do online.</p>
+        </div>
+
+        <nav class="services" aria-label="Available services">
+          <div class="service-grid" id="service-grid"></div>
+          <noscript>
+            <div class="service-grid">
+              <a class="service-card" href="/kutt/">
+                <img class="service-card__icon" src="icons/openmoji/1F517.svg" alt="" width="56" height="56">
+                <span class="service-card__name">Link Shortener</span>
+                <span class="service-card__hint">Versatile URLs</span>
+              </a>
+              <a class="service-card" href="/lufi/">
+                <img class="service-card__icon" src="icons/openmoji/1F4E4.svg" alt="" width="56" height="56">
+                <span class="service-card__name">File Drop</span>
+                <span class="service-card__hint">Temporary storage</span>
+              </a>
+              <a class="service-card" href="/invidious/">
+                <img class="service-card__icon" src="icons/openmoji/1F3AC.svg" alt="" width="56" height="56">
+                <span class="service-card__name">Video Frontend</span>
+                <span class="service-card__hint">Invidious instance</span>
+              </a>
+              <a class="service-card" href="/ffmpeg/">
+                <img class="service-card__icon" src="icons/openmoji/1F39E.svg" alt="" width="56" height="56">
+                <span class="service-card__name">Media Convert</span>
+                <span class="service-card__hint">ffmpeg-web tools</span>
+              </a>
+            </div>
+          </noscript>
+        </nav>
+      </main>
+
+      <footer class="site-footer">
+        <span class="footer-mark" aria-hidden="true"></span>
+        <p>Made for a more open web.</p>
+      </footer>
+    </div>
+  </body>
+</html>
