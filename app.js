@@ -2,11 +2,12 @@
 const SERVICES = [
   { id: "xng", name: "Search Engine", hint: "SearXNG instance", icon: "1F50D", href: "/xng/" },
   { id: "kutt", name: "Link Shortener", hint: "Versatile URLs", icon: "1F517", href: "/kutt/" },
-  { id: "copyp", name: "File Drop", hint: "Temporary storage", icon: "1F4E4", href: "/copyparty/" },
-  { id: "invid", name: "YT Frontend", hint: "Invidious instance", icon: "1F3AC", href: "/invidious/" },
+  { id: "files", name: "File Drop", hint: "Temporary storage", icon: "1F4E4", href: "/copyparty/" },
+  { id: "yt", name: "YT Frontend", hint: "Invidious instance", icon: "1F3AC", href: "/invidious/" },
   { id: "pics", name: "Picsur", hint: "Imgur alternative", icon: "1F5BC", href: "/picsur/" },
   { id: "bin", name: "PrivateBin", hint: "Pastebin alternative", icon: "1F4CB", href: "/bin/" },
   { id: "git", name: "Gitea", hint: "Git Backup instance", icon: "1F5C3", href: "/git/" },
+  { id: "nms", name: "Network Monitoring", hint: "LibreNMS instance", icon: "1F4F0", href: "/nms/" }
   //{ id: "ffmpeg", name: "Media Convert", hint: "ffmpeg-web tools", icon: "1F39E", href: "/ffmpeg/" }
   //{ id: "paint", name: "JSPaint 2D", hint: "Microsoft Paint from Windows 98", icon: "1F3A8", href: "/ffmpeg/" }
 ];
